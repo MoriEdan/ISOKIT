@@ -1,7 +1,7 @@
-# Windows 10 ISOKIT
+# Windows 10 Professional - Full Strip & Lockdown Edition
  Supported Version: 20H2 (OS Build 19042.685)
  
-# Getting Started
+# GETTING STARTED
 You'll need to create an environment variable called `MOUNT` that points to `MSMG\Mount\Install`
 
 You can use DISM Directly instead of using MSMG but all the scripts are set up to use the `MOUNT` variable.
@@ -11,7 +11,9 @@ Scripts that modify the registry require you to mount the registry with MSMG for
 These scripts do literally hundreds of things to secure your Windows 10 Image, You should read everything carefully.
 
 This ISOKit includes MSMG which has an incredible amount of functionality by itself.
-  
+
+Everything you need/want for editing a windows image is right here.
+
  # IMAGE ADDITION SETUP
  
  ## [FOLDER] STARTUP\DEFAULT
@@ -92,7 +94,7 @@ This ISOKit includes MSMG which has an incredible amount of functionality by its
 - Removes annoying folders in file explorer
 
 
-# Disable Unwanted Tasks (Automated by FirstLogin.cmd)
+# DISABLE UNWANTED TASKS (FirstLogin.cmd)
 
 ```
 SCHTASKS /Change /TN "Microsoft\Windows\DiskCleanup\SilentCleanup" /disable
@@ -139,7 +141,7 @@ SCHTASKS /Change /TN "Microsoft\Windows\Diagnosis\Scheduled" /disable
 SCHTASKS /Change /TN "Microsoft\Windows\NetTrace\GatherNetworkInfo" /disable
 ```
 
-# CHANGE UNWANTED REGISTRY SETTINGS (Automated by FirstLogin.cmd)
+# CHANGE UNWANTED REGISTRY SETTINGS (FirstLogin.cmd)
 ```
 REG add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /t REG_DWORD /v RDPVGCInstalled /d 0 /f
 REG add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /t REG_DWORD /v RDPVGSInstalled /d 0 /f
@@ -244,5 +246,5 @@ REG add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /t REG_DWORD /
 REG add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /t REG_DWORD /v AllowCloudSearch /d 0 /f
 ```
 
-
-
+## ACTIVATION 
+You will still need to activate windows with your licence or use your organizations activation service.
