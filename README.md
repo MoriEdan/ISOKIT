@@ -1,4 +1,4 @@
-# Windows 10 ISOKIT
+# Windows 10 Professional - Full Strip & Lockdown Edition
  Supported Version: 20H2 (OS Build 19042.685)
  
 # Getting Started
@@ -244,5 +244,5 @@ REG add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /t REG_DWORD /
 REG add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /t REG_DWORD /v AllowCloudSearch /d 0 /f
 ```
 
-
-
+## ACTIVATION 
+You will still need to activate windows with your licence or use your organizations activation service.
