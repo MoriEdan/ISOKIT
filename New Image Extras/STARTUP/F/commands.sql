@@ -1,0 +1,12 @@
+DROP TRIGGER IF EXISTS TRG_AFTER_UPDATE_Package_SRJournal;
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%MicrosoftEdge%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%BioEnrollment_10%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%CloudExperienceHost_10%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%XboxGameCallableUI_10%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%NarratorQuickStart_10%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%CapturePicker_10%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%WebViewHost_10%";
+UPDATE Package SET IsInbox = 0 WHERE PackageFullName LIKE "%PeopleExperienceHost_10%";
+CREATE TRIGGER TRG_AFTER_UPDATE_Package_SRJournal AFTER UPDATE ON Package FOR EACH ROW WHEN is_srjournal_enabled()BEGIN UPDATE Sequence SET LastValue=LastValue+1 WHERE Id=2;
+INSERT INTO SRJournal(_Revision, _WorkId, ObjectType, Action, ObjectId, PackageIdentity, WhenOccurred, SequenceId)SELECT 1, workid(), 1, 2, NEW._PackageID, pi._PackageIdentityID, now(), s.LastValue FROM Sequence AS s CROSS JOIN PackageIdentity AS pi WHERE s.Id=2 AND pi.PackageFullName=NEW.PackageFullName;
+END;
