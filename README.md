@@ -2,7 +2,10 @@
  Supported Version: 20H2 (OS Build 19042.685)
  
 [You can download the ISO here if you don't want to make it yourself](https://mega.nz/file/5pw02AJQ#wG9_Jxi-JwbDT5i1tWSo6nds6MLimCQl1Ds4cxrhMmg)
+
 This image includes all modifications here and is ready to install on any PC. Security by default, Just install and go.
+
+Please install this with no internet connection for the best experience, especially on slower machines.
 
 # HIGHLIGHTS IN THIS VERSION:
 
