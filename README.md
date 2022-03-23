@@ -282,5 +282,10 @@ REG add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /t REG_DWORD /
 
 Please make sure you read everything carefully if you make your own image.
 
-## ACTIVATION 
-You will still need to activate windows with your licence or use your organizations activation service.
+## ACTIVATION / LICENSE
+
+This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way.
+
+You will still need to activate windows with your license or use your organizations activation service.
+
+All rights reserved by Microsoft, This image can receive windows updates but may stop receiving them at any time at Microsofts sole discretion.
