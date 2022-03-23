@@ -27,7 +27,12 @@ Please install this with no internet connection for the best experience, especia
 - A significant number of Scheduled Tasks have been disabled.
 - An extreme number of registry keys have been tweaked to give you more privacy/security by default.
 - A significant amount of services have been removed or had their capabilities limited.
- 
+
+# NOTES REGARDING ANTI-CHEATS
+
+Invasive drivers can not run on this image by default, Please read carefully.
+
+https://github.com/HypsyNZ/ISOKIT/wiki/NOTES-REGARDING-ANTI-CHEATS
  
 # GETTING STARTED MAKING YOUR OWN IMAGE
 
