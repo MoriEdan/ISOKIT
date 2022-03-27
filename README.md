@@ -7,6 +7,13 @@ This image includes all modifications here and is ready to install on any PC. Se
 
 Please install this with no internet connection for the best experience, especially on slower machines.
 
+# WINDOWS UPDATE CHANGES
+
+To upgrade to 21H1 and continue receiving updates you will need to change the permissions on a folder in the registry.
+
+[Instructions Here](https://github.com/HypsyNZ/ISOKIT/wiki/WINDOWS-UPDATE)
+
+
 # HIGHLIGHTS IN THIS VERSION:
 
 - Customized OS install (Unattend.xml)
