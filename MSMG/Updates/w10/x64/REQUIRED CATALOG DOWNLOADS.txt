@@ -1,4 +1,0 @@
-Due to file size restrictions a package couldn't be included in the commit
-
-https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=15977794-6659-4a77-8697-52dc35b9ee4d
-

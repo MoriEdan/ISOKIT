@@ -1,18 +1,11 @@
 # Windows 10 Professional - Full Strip & Lockdown Edition
- Supported Version: 20H2 (OS Build 19042.685)
+ Current Supported Version: 21H2 (OS Build 19044.1288)
  
-[You can download the ISO here if you don't want to make it yourself](https://mega.nz/file/5pw02AJQ#wG9_Jxi-JwbDT5i1tWSo6nds6MLimCQl1Ds4cxrhMmg)
+[You can download the Most Recent ISO here if you don't want to make it yourself](https://mega.nz/file/40glhTaA#4F-bfFZsvsWoIAmXPTz0-CYDehI7pGNMvuzMnHB-c_4)
 
 This image includes all modifications here and is ready to install on any PC. Security by default, Just install and go.
 
 Please install this with no internet connection for the best experience, especially on slower machines.
-
-# WINDOWS UPDATE CHANGES
-
-To upgrade to 21H1 and continue receiving updates you will need to change the permissions on a folder in the registry.
-
-[Instructions Here](https://github.com/HypsyNZ/ISOKIT/wiki/WINDOWS-UPDATE)
-
 
 # HIGHLIGHTS IN THIS VERSION:
 
@@ -21,14 +14,13 @@ To upgrade to 21H1 and continue receiving updates you will need to change the pe
 - All optional features have been disabled by default.
 - All remote access has been removed.
 - Kernel debugging has been removed.
-- Only SSTP is available for use, All others have been removed.
 - Strict firewall rules are imported on first login.
 - Extremely Strict process/service mitigations applied at first login.
-- Strict group policy that doesn't affect functionality.
+- Strict group policy.
 - All Microsoft Experiences and Tracking etc has been disabled.
-- All Error reporting, diagnostics and data collection has been disabled.
+- Most Error reporting, diagnostics and data collection has been disabled.
 - Most Event logs have been disabled (some cant be disabled).
-- One drive and Internet Explorer have been removed.
+- One drive / Edge and Internet Explorer have been removed.
 - The start menu has been cleared of excess apps.
 - Settings have been hidden to avoid alteration.
 - A significant number of Scheduled Tasks have been disabled.
@@ -45,15 +37,13 @@ https://github.com/HypsyNZ/ISOKIT/wiki/NOTES-REGARDING-ANTI-CHEATS
 
 You don't have to use the download, everything to make it yourself is right here.
 
+Scripts that modify the registry require you to mount the registry first with MSMG.
+
 You'll need to create an environment variable called `MOUNT` that points to `MSMG\Mount\Install`
 
-You can use DISM Directly instead of using MSMG but all the scripts are set up to use the `MOUNT` variable.
+This ISOKit includes a reduced version of MSMG to make it easier to mount images etc, You can use DISM Directly if you wish.
 
-Scripts that modify the registry require you to mount the registry with MSMG for simplicity but you can technically do it yourself.
-
-These scripts do literally hundreds of things to secure your Windows 10 Image, You should read everything carefully.
-
-This ISOKit includes MSMG which has an incredible amount of functionality by itself.
+All the scripts are set up to use the `MOUNT` variable.
 
  # IMAGE ADDITION SETUP
  

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unattend xmlns="urn:schemas-microsoft-com:unattend">
+    <servicing></servicing>
+    <settings pass="oobeSystem">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <OOBE>
+                <HideEULAPage>true</HideEULAPage>
+                <HideLocalAccountScreen>true</HideLocalAccountScreen>
+                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+                <NetworkLocation>Home</NetworkLocation>
+                <ProtectYourPC>3</ProtectYourPC>
+                <SkipUserOOBE>true</SkipUserOOBE>
+                <UnattendEnableRetailDemo>false</UnattendEnableRetailDemo>
+            </OOBE>
+            <BluetoothTaskbarIconEnabled>false</BluetoothTaskbarIconEnabled>
+            <FileExplorerInTouchImprovement>false</FileExplorerInTouchImprovement>
+            <RegisteredOrganization>Null Corporation</RegisteredOrganization>
+            <RegisteredOwner>Null Corporation</RegisteredOwner>
+            <ShowWindowsLive>false</ShowWindowsLive>
+            <EnableStartMenu>true</EnableStartMenu>
+            <SearchBoxVisibleInTouchImprovement>false</SearchBoxVisibleInTouchImprovement>
+        </component>
+        <component name="Microsoft-Windows-WinRE-RecoveryAgent" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <UninstallWindowsRE>true</UninstallWindowsRE>
+        </component>
+        <component name="Microsoft-Windows-Sidebar" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <SidebarVisible>false</SidebarVisible>
+            <SidebarOnByDefault>false</SidebarOnByDefault>
+        </component>
+    </settings>
+    <settings pass="generalize">
+        <component name="Microsoft-Windows-SharedAccess" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <EnableICS>false</EnableICS>
+        </component>
+        <component name="Microsoft-Windows-WorkstationService" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AllowInsecureGuestAuth>0</AllowInsecureGuestAuth>
+            <OtherDomains />
+        </component>
+        <component name="Microsoft-Windows-WwanUI" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <NotInOOBE>true</NotInOOBE>
+        </component>
+        <component name="Microsoft-Windows-TapiSetup" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <TapiConfigured>0</TapiConfigured>
+        </component>
+    </settings>
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-RemoteAssistance-Exe" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <fAllowFullControl>false</fAllowFullControl>
+            <fAllowToGetHelp>false</fAllowToGetHelp>
+            <fEnableChatControl>false</fEnableChatControl>
+            <CreateEncryptedOnlyTickets>true</CreateEncryptedOnlyTickets>
+        </component>
+        <component name="Microsoft-Windows-Printing-Spooler-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Start>0</Start>
+        </component>
+        <component name="Microsoft-Windows-ErrorReportingCore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisableWER>1</DisableWER>
+        </component>
+        <component name="Microsoft-Windows-SystemRestore-Main" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisableSR>1</DisableSR>
+        </component>
+        <component name="Networking-MPSSVC-Svc" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DomainProfile_DisableNotifications>true</DomainProfile_DisableNotifications>
+            <PrivateProfile_DisableNotifications>true</PrivateProfile_DisableNotifications>
+            <PublicProfile_DisableNotifications>true</PublicProfile_DisableNotifications>
+        </component>
+        <component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <EnableCaptureMonitor>false</EnableCaptureMonitor>
+            <DisableSpatialOnComboEndpoints>true</DisableSpatialOnComboEndpoints>
+        </component>
+        <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <SkipAutoActivation>true</SkipAutoActivation>
+        </component>
+        <component name="Microsoft-Windows-SQMApi" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <CEIPEnabled>0</CEIPEnabled>
+        </component>
+        <component name="Microsoft-Windows-SQMApi" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <CEIPEnabled>0</CEIPEnabled>
+        </component>
+        <component name="Microsoft-Windows-TCPIP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <IcmpRedirectsEnabled>false</IcmpRedirectsEnabled>
+        </component>
+        <component name="Microsoft-Windows-TerminalServices-Publishing-WMIProvider" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <fDisabledAllowList>true</fDisabledAllowList>
+        </component>
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <CopyProfile>true</CopyProfile>
+            <OEMName>Null Corporation</OEMName>
+            <RegisteredOrganization>Null Corporation</RegisteredOrganization>
+            <RegisteredOwner>Null Corporation</RegisteredOwner>
+            <SearchBoxVisibleInTouchImprovement>false</SearchBoxVisibleInTouchImprovement>
+            <ShowWindowsLive>false</ShowWindowsLive>
+            <BluetoothTaskbarIconEnabled>false</BluetoothTaskbarIconEnabled>
+            <AppIconInTouchImprovement>false</AppIconInTouchImprovement>
+            <EnableStartMenu>true</EnableStartMenu>
+        </component>
+    </settings>
+    <settings pass="offlineServicing">
+        <component name="Microsoft-Windows-WiFiNetworkManager" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DefaultAutoConnectOpenState>0</DefaultAutoConnectOpenState>
+            <DefaultAutoConnectSharedState>0</DefaultAutoConnectSharedState>
+            <WiFiSenseAllowed>0</WiFiSenseAllowed>
+            <WiFiSharingFacebookInitial>0</WiFiSharingFacebookInitial>
+            <WiFiSharingOutlookInitial>0</WiFiSharingOutlookInitial>
+            <WiFiSharingSkypeInitial>0</WiFiSharingSkypeInitial>
+        </component>
+        <component name="Security-Malware-Windows-Defender" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <EnableRemoteManagedDefaults>false</EnableRemoteManagedDefaults>
+        </component>
+        <component name="Microsoft-Windows-Embedded-KeyboardFilterService" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <BrowserForward>Allowed</BrowserForward>
+            <ForceOffAccessibility>true</ForceOffAccessibility>
+        </component>
+        <component name="Microsoft-Windows-TerminalServices-Publishing-WMIProvider" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <fDisabledAllowList>true</fDisabledAllowList>
+        </component>
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <SearchBoxVisibleInTouchImprovement>false</SearchBoxVisibleInTouchImprovement>
+        </component>
+    </settings>
+    <settings pass="windowsPE">
+        <component name="Microsoft-Windows-Setup" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <EnableFirewall>true</EnableFirewall>
+            <EnableNetwork>false</EnableNetwork>
+        </component>
+    </settings>
+    <cpi:offlineImage cpi:source="wim:e:/isokit/dvd/sources/install.wim#Windows 10 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+</unattend>

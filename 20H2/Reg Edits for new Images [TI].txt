@@ -1,0 +1,21 @@
+[x_o]
+:: You need to Mount the Image Registry with MSMG or DISM before you run any of these
+
+# Disable Action Center
+reg add "HKLM\TK_SOFTWARE\Policies\Microsoft\Windows\Explorer" /t REG_DWORD /v DisableNotificationCenter /d 1 /f
+
+# Lock Start Layout
+reg add "HKLM\TK_SOFTWARE\Policies\Microsoft\Windows\Explorer" /t REG_DWORD /v LockedStartLayout /d 1 /f
+
+# Disable OOBE Privacy Experiences
+reg add "HKLM\TK_SOFTWARE\Policies\Microsoft\Windows\OOBE" /t REG_DWORD /v DisablePrivacyExperience /d 1 /f
+
+# Disable Task View Button
+reg add "HKLM\TK_SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /t REG_DWORD /v ShowTaskViewButton /d 0 /f
+reg add "HKLM\TK_SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MultitaskingView\AllUpView" /t REG_DWORD /v AllUpView /d 0 /f
+
+# New Edge Paths
+"C:\Program Files (x86)\Microsoft\Edge\Application\84.0.522.52\Installer\setup.exe" --uninstall --system-level --force-uninstall --verbose-logging --quiet --silent
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432NODE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge" /f
+DEL /F "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Microsoft Edge.lnk"
+https://msedge.api.cdp.microsoft.com
