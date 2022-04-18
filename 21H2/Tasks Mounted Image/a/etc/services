@@ -1,0 +1,14 @@
+# Copyright (c) 1993-2004 Microsoft Corp.
+#
+# This file contains port numbers for well-known services defined by IANA
+#
+# Format:
+#
+# <service name>  <port number>/<protocol>  [aliases...]   [#<comment>]
+#
+
+discard             9/tcp    sink null
+discard             9/udp    sink null
+#https             443/tcp                       #HTTP over TLS/SSL
+#https             443/udp                       #HTTP over TLS/SSL
+

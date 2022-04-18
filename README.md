@@ -1,8 +1,11 @@
 # Windows 10 Professional - Full Strip & Lockdown Edition
- Supported Version: 20H2 (OS Build 19042.685)
+ Current Supported Version: 21H2 (OS Build 19044.1288)
  
-[You can download the ISO here if you don't want to make it yourself](https://mega.nz/file/5pw02AJQ#wG9_Jxi-JwbDT5i1tWSo6nds6MLimCQl1Ds4cxrhMmg)
+[You can download the Most Recent ISO here if you don't want to make it yourself](https://mega.nz/file/40glhTaA#4F-bfFZsvsWoIAmXPTz0-CYDehI7pGNMvuzMnHB-c_4)
+
 This image includes all modifications here and is ready to install on any PC. Security by default, Just install and go.
+
+Please install this with no internet connection for the best experience, especially on slower machines.
 
 # HIGHLIGHTS IN THIS VERSION:
 
@@ -11,34 +14,36 @@ This image includes all modifications here and is ready to install on any PC. Se
 - All optional features have been disabled by default.
 - All remote access has been removed.
 - Kernel debugging has been removed.
-- Only SSTP is available for use, All others have been removed.
 - Strict firewall rules are imported on first login.
 - Extremely Strict process/service mitigations applied at first login.
-- Strict group policy that doesn't affect functionality.
+- Strict group policy.
 - All Microsoft Experiences and Tracking etc has been disabled.
-- All Error reporting, diagnostics and data collection has been disabled.
+- Most Error reporting, diagnostics and data collection has been disabled.
 - Most Event logs have been disabled (some cant be disabled).
-- One drive and Internet Explorer have been removed.
+- One drive / Edge and Internet Explorer have been removed.
 - The start menu has been cleared of excess apps.
 - Settings have been hidden to avoid alteration.
 - A significant number of Scheduled Tasks have been disabled.
 - An extreme number of registry keys have been tweaked to give you more privacy/security by default.
 - A significant amount of services have been removed or had their capabilities limited.
- 
+
+# NOTES REGARDING ANTI-CHEATS
+
+Invasive drivers can not run on this image by default, Please read carefully.
+
+https://github.com/HypsyNZ/ISOKIT/wiki/NOTES-REGARDING-ANTI-CHEATS
  
 # GETTING STARTED MAKING YOUR OWN IMAGE
 
 You don't have to use the download, everything to make it yourself is right here.
 
+Scripts that modify the registry require you to mount the registry first with MSMG.
+
 You'll need to create an environment variable called `MOUNT` that points to `MSMG\Mount\Install`
 
-You can use DISM Directly instead of using MSMG but all the scripts are set up to use the `MOUNT` variable.
+This ISOKit includes a reduced version of MSMG to make it easier to mount images etc, You can use DISM Directly if you wish.
 
-Scripts that modify the registry require you to mount the registry with MSMG for simplicity but you can technically do it yourself.
-
-These scripts do literally hundreds of things to secure your Windows 10 Image, You should read everything carefully.
-
-This ISOKit includes MSMG which has an incredible amount of functionality by itself.
+All the scripts are set up to use the `MOUNT` variable.
 
  # IMAGE ADDITION SETUP
  
@@ -274,5 +279,10 @@ REG add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /t REG_DWORD /
 
 Please make sure you read everything carefully if you make your own image.
 
-## ACTIVATION 
-You will still need to activate windows with your licence or use your organizations activation service.
+## ACTIVATION / LICENSE
+
+This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way.
+
+You will still need to activate windows with your license or use your organizations activation service.
+
+All rights reserved by Microsoft, This image can receive windows updates but may stop receiving them at any time at Microsofts sole discretion.

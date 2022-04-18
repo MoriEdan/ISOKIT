@@ -1,0 +1,6 @@
+@ECHO OFF
+ECHO Hide Windows Settings
+
+REG add "HKLM\TK_SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /t REG_SZ /v SettingsPageVisibility /d hide:maps;regionlanguage;speech;language;notifications;quietmomentshome;quiethours;maps-downloadmaps;cortana-moredetails;search-windowssearch;cortana-windowssearch;search-permissions;cortana-permissions;cortana-windowssearch;bluetooth;phone-defaultapps;network-vpn;project;mobile-devices;network-cellular;sync;autoplay;gaming-broadcasting;gaming-gamebar;gaming-xboxnetworking;assignedaccess;gaming-gamedvr;gaming-gamemode;network-dialup;datausage;easeofaccess-eyecontrol;windowsinsider;windowsinsider-optin;findmydevice;recovery;troubleshoot;developers;crossdevice;clipboard;remotedesktop;backup;delivery-optimization;privacy-calendar;privacy-callhistory;privacy-webcam;privacy-contacts;privacy-email;privacy-backgroundapps;privacy-location;privacy-messaging;privacy-motion;privacy-phonecalls;privacy-radios;privacy-appdiagnostics;privacy-customdevices;privacy-tasks;privacy-accountinfo;privacy-automaticfiledownloads;privacy-speech;privacy-speechtyping;privacy-feedback;easeofaccess-highcontrast;privacy-notifications /f
+
+PAUSE

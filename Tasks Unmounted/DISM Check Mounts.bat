@@ -1,4 +1,0 @@
-DISM /get-mountedwiminfo
-
-
-PAUSE

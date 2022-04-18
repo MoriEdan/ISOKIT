@@ -1,0 +1,10 @@
+<LayoutModificationTemplate Version="1" 
+xmlns="https://schemas.microsoft.com/Start/2014/LayoutModification" 
+xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout">
+    <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+    	<TaskbarLayout>
+      	<taskbar:TaskbarPinList>
+		</taskbar:TaskbarPinList>
+		</TaskbarLayout>
+    </CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
