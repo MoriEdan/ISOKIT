@@ -284,6 +284,6 @@ Please make sure you read everything carefully if you make your own image.
 
 ## ACTIVATION / LICENSE
 
-This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way, This is not copyright infringement, You will still need to activate windows with your license or use your organizations activation service.
+This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way, This is not copyright infringement, You will still need to activate windows with a legitimately purchased license or use your organizations activation service.
 
 All rights reserved by Microsoft, This image can receive windows updates but may stop receiving them at any time at Microsofts sole discretion.
