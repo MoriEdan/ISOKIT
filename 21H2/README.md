@@ -11,8 +11,8 @@ https://github.com/HypsyNZ/ISOKIT/wiki/NOTES-REGARDING-ANTI-CHEATS
 
 # ACTIVATION / LICENSE
 
-This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way.
+This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way, This is not copyright infringement, You will still need to activate windows with a legitimately purchased license or use your organizations activation service. No software modifications have been made to circumvent any licensing.
 
-You will still need to activate windows with your license or use your organizations activation service.
+This image can receive windows updates but may stop receiving them at any time at Microsofts sole discretion and ability.
 
-All rights reserved by Microsoft, This image can receive windows updates but may stop receiving them at any time at Microsofts sole discretion.
+All rights reserved by Microsoft.
