@@ -1,5 +1,6 @@
 # Windows 10 Professional - Full Strip & Lockdown Edition
- Current Supported Version: 21H2 (OS Build 19044.1288)
+
+Current Supported Version: 21H2 (OS Build 19044.1288) - [LICENSE](https://github.com/HypsyNZ/ISOKIT#activation--license)
  
 [You can find a link to the Most Recent ISO here if you don't want to make it yourself](https://github.com/HypsyNZ/ISOKIT/releases)
 
@@ -283,8 +284,6 @@ Please make sure you read everything carefully if you make your own image.
 
 ## ACTIVATION / LICENSE
 
-This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way.
-
-You will still need to activate windows with your license or use your organizations activation service.
+This is a legitimate image made with official tools and known sources of good information, This image is not made or endorsed or supported by Microsoft in any way, This is not copyright infringement, You will still need to activate windows with your license or use your organizations activation service.
 
 All rights reserved by Microsoft, This image can receive windows updates but may stop receiving them at any time at Microsofts sole discretion.
