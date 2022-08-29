@@ -1,9 +1,8 @@
 # Windows 10 Professional - Full Strip & Lockdown Edition
- Supported Version: 20H2 (OS Build 19042.685)
  
  _There is a more recent ISO you could download, This one will stop getting updates soon_
 
-[You can download the ISO here if you don't want to make it yourself](https://mega.nz/file/5pw02AJQ#wG9_Jxi-JwbDT5i1tWSo6nds6MLimCQl1Ds4cxrhMmg)
+[![DOWNLOAD WINDOWS 10 PROFESSIONAL  20H2  (OS Build 19042](https://user-images.githubusercontent.com/54571583/187314882-a3a671a0-a5f0-4bb3-baae-492ca0dfd1d4.png)](https://mega.nz/file/5pw02AJQ#wG9_Jxi-JwbDT5i1tWSo6nds6MLimCQl1Ds4cxrhMmg)
 
 This image includes all modifications here and is ready to install on any PC. Security by default, Just install and go.
 
