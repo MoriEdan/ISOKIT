@@ -8,8 +8,6 @@ This image includes all modifications here and is ready to install on any PC. Se
 
 Please install this with no internet connection for the best experience, especially on slower machines.
 
-You can use [Fade](https://github.com/HypsyNZ/FadeWindows) to periodically kill the rest of the annoying programs.
-
 # HIGHLIGHTS IN THIS VERSION:
 
 - Customized OS install (Unattend.xml)
