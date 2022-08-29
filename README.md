@@ -1,7 +1,7 @@
 # Windows 10 Professional - Full Strip & Lockdown Edition
  Current Supported Version: 21H2 (OS Build 19044.1288)
  
-[You can download the Most Recent ISO here if you don't want to make it yourself](https://mega.nz/file/40glhTaA#4F-bfFZsvsWoIAmXPTz0-CYDehI7pGNMvuzMnHB-c_4)
+[You can find a link to the Most Recent ISO here if you don't want to make it yourself](https://github.com/HypsyNZ/ISOKIT/releases)
 
 This image includes all modifications here and is ready to install on any PC. Security by default, Just install and go.
 
